@@ -1,0 +1,27 @@
+[2023-03-01T00:45:20.664+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: save_date_in_file_txt.sleep scheduled__2023-02-27T00:00:00+00:00 [queued]>
+[2023-03-01T00:45:20.685+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: save_date_in_file_txt.sleep scheduled__2023-02-27T00:00:00+00:00 [queued]>
+[2023-03-01T00:45:20.686+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-01T00:45:20.686+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 4
+[2023-03-01T00:45:20.687+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-03-01T00:45:20.716+0000] {taskinstance.py:1300} INFO - Executing <Task(BashOperator): sleep> on 2023-02-27 00:00:00+00:00
+[2023-03-01T00:45:20.725+0000] {standard_task_runner.py:55} INFO - Started process 134 to run task
+[2023-03-01T00:45:20.730+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'save_date_in_file_txt', 'sleep', 'scheduled__2023-02-27T00:00:00+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/print_date_file.py', '--cfg-path', '/tmp/tmplhgt7cmn']
+[2023-03-01T00:45:20.730+0000] {standard_task_runner.py:83} INFO - Job 39: Subtask sleep
+[2023-03-01T00:45:20.839+0000] {task_command.py:388} INFO - Running <TaskInstance: save_date_in_file_txt.sleep scheduled__2023-02-27T00:00:00+00:00 [running]> on host 60fce3bd3be2
+[2023-03-01T00:45:20.978+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=save_date_in_file_txt
+AIRFLOW_CTX_TASK_ID=sleep
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-27T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-27T00:00:00+00:00
+[2023-03-01T00:45:20.979+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2023-03-01T00:45:20.980+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'sleep 5']
+[2023-03-01T00:45:21.005+0000] {subprocess.py:86} INFO - Output:
+[2023-03-01T00:45:26.016+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-03-01T00:45:26.074+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=save_date_in_file_txt, task_id=sleep, execution_date=20230227T000000, start_date=20230301T004520, end_date=20230301T004526
+[2023-03-01T00:45:26.128+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-03-01T00:45:26.169+0000] {taskinstance.py:2578} INFO - 1 downstream tasks scheduled from follow-on schedule check

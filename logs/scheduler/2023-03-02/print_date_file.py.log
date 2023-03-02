@@ -1,0 +1,68 @@
+[2023-03-02T19:40:08.660+0000] {processor.py:153} INFO - Started process (PID=46) to work on /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:40:08.664+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/print_date_file.py for tasks to queue
+[2023-03-02T19:40:08.668+0000] {logging_mixin.py:137} INFO - [2023-03-02T19:40:08.668+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:40:08.675+0000] {logging_mixin.py:137} INFO - [2023-03-02T19:40:08.674+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/print_date_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/print_date_file.py", line 10
+    'start_date': datetime(2023, 03, 02)
+                                  ^
+SyntaxError: invalid token
+[2023-03-02T19:40:08.682+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:40:08.750+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/print_date_file.py took 0.100 seconds
+[2023-03-02T19:40:38.990+0000] {processor.py:153} INFO - Started process (PID=111) to work on /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:40:38.994+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/print_date_file.py for tasks to queue
+[2023-03-02T19:40:38.995+0000] {logging_mixin.py:137} INFO - [2023-03-02T19:40:38.995+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:40:38.999+0000] {logging_mixin.py:137} INFO - [2023-03-02T19:40:38.997+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/print_date_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/print_date_file.py", line 10
+    'start_date': datetime(2023, 03, 02)
+                                  ^
+SyntaxError: invalid token
+[2023-03-02T19:40:38.999+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:40:39.038+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/print_date_file.py took 0.053 seconds
+[2023-03-02T19:41:09.544+0000] {processor.py:153} INFO - Started process (PID=176) to work on /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:41:09.547+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/print_date_file.py for tasks to queue
+[2023-03-02T19:41:09.548+0000] {logging_mixin.py:137} INFO - [2023-03-02T19:41:09.548+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:41:09.551+0000] {logging_mixin.py:137} INFO - [2023-03-02T19:41:09.550+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/print_date_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/print_date_file.py", line 10
+    'start_date': datetime(2023, 03, 02)
+                                  ^
+SyntaxError: invalid token
+[2023-03-02T19:41:09.551+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:41:09.581+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/print_date_file.py took 0.042 seconds
+[2023-03-02T19:41:40.200+0000] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:41:40.201+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/print_date_file.py for tasks to queue
+[2023-03-02T19:41:40.202+0000] {logging_mixin.py:137} INFO - [2023-03-02T19:41:40.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:41:40.206+0000] {logging_mixin.py:137} INFO - [2023-03-02T19:41:40.205+0000] {dagbag.py:343} ERROR - Failed to import: /opt/airflow/dags/print_date_file.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 339, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/print_date_file.py", line 10
+    'start_date': datetime(2023, 03, 02)
+                                  ^
+SyntaxError: invalid token
+[2023-03-02T19:41:40.207+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/print_date_file.py
+[2023-03-02T19:41:40.244+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/print_date_file.py took 0.054 seconds
